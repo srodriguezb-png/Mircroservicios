@@ -1,0 +1,13 @@
+
+### LISTAR SPRINTS
+GET http://localhost/Mircroservicios/Gestor_Historias_Microservicios/servicios/sprints/public/
+
+### CREAR SPRINT
+POST http://localhost/Mircroservicios/Gestor_Historias_Microservicios/servicios/sprints/public/
+Content-Type: application/json
+
+{
+    "nombre": "Sprint 1",
+    "fecha_inicio": "2026-11-20",
+    "fecha_fin": "2026-11-30"
+}
